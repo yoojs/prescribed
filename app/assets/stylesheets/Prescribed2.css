@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.footer {
+	color: #F8E5E5;
+  font-size: 30px;
+  font-family:Poiret One;
+  text-align:center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
 .h2 {
   color: #5a5a5a;
   font-size: 50px;
@@ -14,11 +26,37 @@
   list-style-type: none;
 }
 
+.h4 {
+color: #5a5a5a;
+  font-size: 35px;
+  font-size: 3vw;
+  font-family:Poiret One;
+  text-align:center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
 .p {
 	color: #5a5a5a;
-  font-size: 30px;
+  font-size: 25px;
+  font-size: 1.5vw;
   font-family:Poiret One;
-  /*font-weight: bold;*/
+  text-align:center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  list-style-type: none;
+}
+
+.landing {
+  color: #5a5a5a;
+  font-size: 36px;
+  font-size: 2.8vw;
+  font-family:Poiret One;
   text-align:center;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -36,7 +74,7 @@
 	
 .username{
   position:absolute;
-  top:20px;
+  top:25px;
   right:10px;
   color: #F8E5E5;
   font-size: 10px;
@@ -47,6 +85,7 @@
   padding-bottom: 0px;
   padding-right: 0px;
   padding-left: 0px;
+  vertical-align:center;
   list-style-type: none;
 }
 
@@ -62,6 +101,5 @@
 
 .nav {
 	width: 100%;
-}
-	
-	
+	overflow:scroll;
+}	
